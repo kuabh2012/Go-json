@@ -1,0 +1,22 @@
+{
+    "users": [
+      {
+        "name": "Amey",
+        "type": "jackson",
+        "age": 45,
+        "social": {
+          "facebook": "https://facebook.com",
+          "twitter": "https://twitter.com"
+        }
+      },
+      {
+        "name": "Steve",
+        "type": "mark",
+        "age": 67,
+        "social": {
+          "facebook": "https://facebook.com",
+          "twitter": "https://twitter.com"
+        }
+      }
+    ]
+  }
