@@ -31,6 +31,7 @@ type Social struct {
 }
 
 func main() {
+
 	// Open our jsonFile
 	jsonFile, err := os.Open("users.json")
 	// if we os.Open returns an error then handle it
@@ -52,7 +53,7 @@ func main() {
 	// jsonFile's content into 'users' which we defined above
 	json.Unmarshal(byteValue, &users)
 
-	// fmt.Println(users)
+	fmt.Println(users)
 
 	// we iterate through every user within our users array and
 	// print out the user Type, their name, and their facebook url
@@ -67,5 +68,8 @@ func main() {
 		fmt.Println("User Name: " + users.Users[i].Name)
 		fmt.Println("Facebook Url: " + users.Users[i].Social.Facebook)
 	}
+
+	Url_parser_withinterface()
+	Url_parser_withstruct()
 
 }

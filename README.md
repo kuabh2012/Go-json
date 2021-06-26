@@ -1,1 +1,5 @@
-Example how to work with to or from with json in Golang.
+# Golang json Parse file
+
+# Golang Json Parse with Struct
+
+# Golang Json Parse with interface
