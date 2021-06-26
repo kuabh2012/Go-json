@@ -24,6 +24,8 @@ func Url_parser_withstruct() {
 
 	body, _ := ioutil.ReadAll(resp.Body)
 
+	// fmt.Println("printing the body\n: ", string(body))
+
 	var f Data
 
 	err = json.Unmarshal(body, &f)
